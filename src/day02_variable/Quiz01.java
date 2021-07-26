@@ -7,10 +7,11 @@ public class Quiz01 {
 		char ch = 'A';
 		float fl;
 		
-		System.out.println(sh = (short)b);
+		sh = (short)b;
 		ch = (char)b;
 		sh = (short)ch;
 		ch = (char)sh;
 		fl = (float)5.11;
+		fl = 5.11f;
 	}
 }
